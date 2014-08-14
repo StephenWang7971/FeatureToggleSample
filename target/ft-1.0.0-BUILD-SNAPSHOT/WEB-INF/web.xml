@@ -9,7 +9,6 @@
 		<param-value>
 			/WEB-INF/spring/root-context.xml
 			/WEB-INF/spring/property-loader.xml
-			/WEB-INF/spring/method-interceptor.xml
 		</param-value>
 	</context-param>
 	
@@ -37,4 +36,9 @@
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
 	
+	<error-page>
+       <error-code>404</error-code>
+       <location>/not_found</location>
+    </error-page>
+
 </web-app>

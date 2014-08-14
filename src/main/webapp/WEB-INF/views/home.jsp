@@ -18,17 +18,6 @@
 		<a href="${basePath}/featureB">Feature B</a>
 	</sec:toggle>
 	
-		<br>
-		
-	<sec:toggle feature ="featureC" >
-		<a href="${basePath}/featureC">Feature C</a>
-	</sec:toggle>
-	
-		<br>
-		
-	<sec:toggle feature ="featureD" >
-		<a href="${basePath}/featureD">Feature D</a>
-	</sec:toggle>
 </h1>
 
 </body>

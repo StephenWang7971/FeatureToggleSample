@@ -28,8 +28,6 @@ public class HomeController extends BaseController {
 
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Locale locale, HttpServletRequest request) {
-		// ControllerReflect cr = new ControllerReflect();
-		// cr.getUrlMapping(request);
 		return "home";
 	}
 

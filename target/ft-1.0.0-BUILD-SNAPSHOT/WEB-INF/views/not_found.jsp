@@ -2,7 +2,7 @@
 <%@ page session="false" %>
 <html>
 <head>
-	<title>Home</title>
+	<title>Feature Toggle Sample</title>
 </head>
 <body>
 <h1>
