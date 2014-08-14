@@ -2,12 +2,14 @@
 <%@ page session="false" %>
 <html>
 <head>
-	<title>Feature Toggle Sample</title>
+	<title>Home</title>
 </head>
 <body>
 <h1>
 	Page not Found.
 </h1>
+	<a href="${basePath}/">Home</a>
+	
 
 </body>
 </html>
